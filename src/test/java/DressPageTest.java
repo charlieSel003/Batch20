@@ -25,7 +25,7 @@ import com.beust.jcommander.Parameter;
 public class DressPageTest {
 
 	@Test
-	public void ReadExcel() throws IOException {
+	public void ReadExcel123() throws IOException {
 		File f = new File("C:\\Users\\Kitty\\Desktop\\test.xlsx");
 		FileInputStream fis = new FileInputStream(f);
 		Workbook wb = new XSSFWorkbook(fis);
