@@ -13,7 +13,7 @@ import com.google.common.collect.Table.Cell;
 
 public class excelread {
 	@Test
-	public void read() throws IOException{
+	public void read3456() throws IOException{
 		File loc=new File("C:\\Users\\Kitty\\Desktop\\test.xlsx");
 		FileInputStream fin=new FileInputStream(loc);
 		Workbook wb=new XSSFWorkbook(fin);
